@@ -21,7 +21,7 @@ VECTOR_STORE_ID = "vs_69de3c8726b08191b9bcf98b4dc32a1c"
 if "agent" not in st.session_state:
     st.session_state["agent"] = Agent(
         name="Life Coach",
-        model="gpt-5.4-mini",
+        model="gpt-4o-mini",
         instructions="""
         You are a warm, encouraging life coach who helps users build better habits, stay motivated, and grow personally.
 
